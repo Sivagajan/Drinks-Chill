@@ -1,0 +1,34 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+}
+
+header{
+    background-color: #262B46;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Playfair Display',serif;
+    font-size: 52px;
+    line-height: 86px;
+}
+
+p{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+}
+
+.arrows{
+    display: block;
+    flex-direction: column;
+}
