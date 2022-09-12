@@ -1,4 +1,4 @@
-nav {
+.hero nav {
     display: flex;
     justify-content: space-between;
     padding: 5vh;
@@ -11,7 +11,7 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
+.logo h2 {
     font-family: 'Playfair Display', serif;
     font-size: 10px;
 }
@@ -34,7 +34,7 @@ h1 {
     line-height: 86px;
 }
 
-p {
+.heading p {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     padding-bottom: 50px;
@@ -46,14 +46,14 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
-input {
+.btn input {
     border-radius: 8px;
     border: #262B46;
     padding: 6px 20px;
     margin-left: 2%;
 }
 
-button {
+.btn button {
     background-color: #6FC3DF;
     margin-left: 2vh;
     padding: 6px 20px;
@@ -63,7 +63,7 @@ button {
     cursor: pointer;
 }
 
-img {
+.arrows img {
     display: block;
     flex-direction: column;
 }

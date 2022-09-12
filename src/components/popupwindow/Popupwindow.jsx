@@ -11,7 +11,7 @@ const Popupwindow = () => {
                 <div className={style.listHeader}>
 
                     <Link className={style.popupLink} to="/">Home</Link>
-                    <Link className={style.popupLink} to="/about">Add Cocktail</Link>
+                    <Link className={style.popupLink} to="/addcocktails">Add Cocktail</Link>
                     <Link className={style.popupLink} to="/users">About</Link>
                     <Link className={style.popupLink} to="/users">Contact</Link>
 
