@@ -1,8 +1,12 @@
 nav{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     padding-left: 24px;
     padding-top: 15px;
+=======
+    padding: 15px;
+>>>>>>> cdd1e9681d5d8899618db97dbad000758d922d05
 }
 
 
@@ -16,22 +20,29 @@ header{
     color: white;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     height: 480px;
 }
 
 .heading{
     margin: 48px;
+=======
+>>>>>>> cdd1e9681d5d8899618db97dbad000758d922d05
 }
 
 h1{
     font-family: 'Playfair Display',serif;
     font-size: 52px;
     line-height: 86px;
+<<<<<<< HEAD
     padding-top: 128px;
+=======
+>>>>>>> cdd1e9681d5d8899618db97dbad000758d922d05
 }
 
 p{
     font-family: 'Montserrat',sans-serif;
+<<<<<<< HEAD
     font-size: 14px;
     padding-bottom: 50px;
 }
@@ -40,3 +51,12 @@ p{
     margin-bottom:50px ;
 }
 
+=======
+    font-size: 18px;
+}
+
+.arrows{
+    display: block;
+    flex-direction: column;
+}
+>>>>>>> cdd1e9681d5d8899618db97dbad000758d922d05
