@@ -1,47 +1,73 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    padding-left: 24px;
-    padding-top: 15px;
-    padding: 15px;
+    padding: 5vh;
 }
 
+.headerLink {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 13px;
+    font-size: 10px;
+
 }
 
-header{
+header {
     background-color: #262B46;
     color: white;
     display: flex;
     flex-direction: column;
-    height: 480px;
+    height: 48vh;
 }
 
-.heading{
+.heading {
     margin: 48px;
 }
 
-h1{
-    font-family: 'Playfair Display',serif;
-    font-size: 52px;
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
     line-height: 86px;
-    padding-top: 128px;
 }
 
-p{
-    font-family: 'Montserrat',sans-serif;
-    font-size: 14px;
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
     padding-bottom: 50px;
 }
 
-.btn{
-    margin-bottom:50px ;
+.btn {
+    margin-bottom: 5vh;
+    padding-left: 5vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.arrows{
+input {
+    border-radius: 8px;
+    border: #262B46;
+    padding: 6px 20px;
+}
+
+button {
+    background-color: #6FC3DF;
+    margin-left: 2vh;
+    padding: 6px 20px;
+    border-radius: 7px;
+    border: #6FC3DF;
+    color: #262B46;
+    cursor: pointer;
+}
+
+.arrows {
     display: block;
     flex-direction: column;
+}
+
+section {
+    margin-left: 49%;
 }

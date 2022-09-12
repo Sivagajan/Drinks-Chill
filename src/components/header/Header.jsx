@@ -4,9 +4,9 @@ const Header = () => {
     return (
         <>
             <header className={style.hero}>
-                <nav className='logo'>
+                <nav className={style.logo}>
                     <h2>DRINKS & CHILL</h2>
-                    <Link to='/popupwindow' >MENU</Link>
+                    <Link className={style.headerLink} to='/popupwindow' >MENU</Link>
                 </nav>
                 <div className={style.heading}>
                     <h1>Cocktails & Getränke! </h1>
@@ -14,8 +14,7 @@ const Header = () => {
                 </div>
 
                 <div className={style.btn}>
-
-                    <input type={style.text} />
+                    <input placeholder='type something' type={style.text} />
                     <button>Search</button>
                 </div>
 
