@@ -1,7 +1,8 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding-left: 24px;
+    padding-top: 15px;
 }
 
 
@@ -15,20 +16,27 @@ header{
     color: white;
     display: flex;
     flex-direction: column;
+    height: 480px;
+}
+
+.heading{
+    margin: 48px;
 }
 
 h1{
     font-family: 'Playfair Display',serif;
     font-size: 52px;
     line-height: 86px;
+    padding-top: 128px;
 }
 
 p{
     font-family: 'Montserrat',sans-serif;
-    font-size: 18px;
+    font-size: 14px;
+    padding-bottom: 50px;
 }
 
-.arrows{
-    display: block;
-    flex-direction: column;
+.btn{
+    margin-bottom:50px ;
 }
+

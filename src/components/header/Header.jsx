@@ -1,21 +1,20 @@
-import { FaBeer } from 'react-icons/fa';
-import { IoIosArrowDown } from "react-icons/io";
+
 import style from './Header.module.css'
 
 const Header = () => {
     return (
         <>
-            <header>
-                <nav className='heading'>
+            <header className   ={style.hero}>
+                <nav className='logo'>
                     <h2>DRINKS & CHILL</h2>
                     <button>MENU</button>
                 </nav>
-                <div>
-                    <h1>Cocktails & Getränke </h1>
+                <div className='heading'>
+                    <h1>Cocktails & Getränke! </h1>
                     <p>HERZLICH WILKOMMEN IN DER WELT DER COCKTAILS UND DER GETRÄNKE</p>
                 </div>
 
-                <div>
+                <div className='btn'>
                     <input type="text" />
                     <button>Search</button>
                 </div>
