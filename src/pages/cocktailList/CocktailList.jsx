@@ -24,7 +24,7 @@ const Cocktails = (props) => {
             {cocktails.map((item, e) =>{
             
             return(
-                <Cocktail key={e} cocktail_Img={item.strDrinkThumb} cocktail_Name = {item.strDrink} />
+                <Cocktail key={e} cocktail_Img={item.strDrinkThumb} cocktail_Name = {item.strDrink}/>
                 )
             })}
         
