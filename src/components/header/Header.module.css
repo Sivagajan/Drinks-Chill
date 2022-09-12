@@ -14,7 +14,6 @@ nav {
 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 10px;
-
 }
 
 header {
@@ -51,6 +50,7 @@ input {
     border-radius: 8px;
     border: #262B46;
     padding: 6px 20px;
+    margin-left: 2%;
 }
 
 button {
@@ -63,7 +63,7 @@ button {
     cursor: pointer;
 }
 
-.arrows {
+img {
     display: block;
     flex-direction: column;
 }
