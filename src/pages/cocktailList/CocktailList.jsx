@@ -24,20 +24,31 @@ const Cocktails = (props) => {
 
     return (
 
+
         <>
 
-        < Header />
+            < Header />
             <div className={style.div}>
 
                 {cocktails.map((item, e) => {
 
-                return (
+                    return (
+                        <div className={`
+			                style${Math.floor((e % 6) + 1)}
+		                	${e % 2 == 0 ? 'left' : 'right'}
+		                    `}
+                        >
+
                         <Cocktail key={e} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
-                        )
-                    })}
+                        </div>)
+                }
+                )
+                }
+                
+                
             </div>
 
-        < Footer />
+            < Footer />
         </>
 
     )
