@@ -10,7 +10,7 @@ const Header = () => {
                     <Link className={style.headerLink} to='/popupwindow' >MENU</Link>
                 </nav>
                 <div className={style.heading}>
-                    <h1>Cocktails & Getränke! </h1>
+                    <Link to='/'><h1>Cocktails & Getränke!</h1></Link>
                     <p>HERZLICH WILKOMMEN IN DER WELT DER COCKTAILS UND DER GETRÄNKE</p>
                 </div>
 
