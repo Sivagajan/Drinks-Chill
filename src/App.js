@@ -9,8 +9,8 @@ function App() {
       < Header />
       <AddCocktails />
       <Footer />
+
     </div>
   );
 }
-
 export default App;
