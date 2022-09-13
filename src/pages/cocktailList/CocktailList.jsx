@@ -33,10 +33,7 @@ const Cocktails = (props) => {
                 {cocktails.map((item, e) => {
 
                     return (
-                        <div className={`
-			                style${Math.floor((e % 6) + 1)}
-		                	${e % 2 == 0 ? 'left' : 'right'}
-		                    `}
+                        <div className={`style${Math.floor((e % 6) + 1)} ${e % 2 === 0 ? 'left' : 'right'}`}
                         >
 
                         <Cocktail key={e} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
