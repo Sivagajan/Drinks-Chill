@@ -1,0 +1,13 @@
+.style.recipeContainer {
+    display: flex;
+    background-color: #262B46;
+    color: white;
+}
+
+.textUnder {
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 28px;
+}

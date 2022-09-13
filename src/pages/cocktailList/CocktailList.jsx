@@ -33,7 +33,7 @@ const Cocktails = (props) => {
                         <div className={`style${Math.floor((e % 6) + 1)} ${e % 2 === 0 ? 'left' : 'right'}`}
                         >
 
-                            <Cocktail key={e} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
+                            <Cocktail key={e} id={item.idDrink} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
                         </div>)
                 }
                 )
