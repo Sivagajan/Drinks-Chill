@@ -22,7 +22,6 @@ const Cocktails = (props) => {
     return (
 
 
-
         <>
             {cocktails.map((item, e) => {
 
