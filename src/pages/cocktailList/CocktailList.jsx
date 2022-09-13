@@ -18,13 +18,10 @@ const Cocktails = (props) => {
             .then(res => res.json())
             .then(data => setCocktails(data.drinks))
         console.log(cocktails)
-
         console.log('fetchen tut er hier auch')
     }, [])
 
     return (
-
-
         <>
 
             < Header />
@@ -36,13 +33,13 @@ const Cocktails = (props) => {
                         <div className={`style${Math.floor((e % 6) + 1)} ${e % 2 === 0 ? 'left' : 'right'}`}
                         >
 
-                        <Cocktail key={e} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
+                            <Cocktail key={e} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
                         </div>)
                 }
                 )
                 }
-                
-                
+
+
             </div>
 
             < Footer />

@@ -8,10 +8,10 @@ import Footer from '../../components/footer/Footer'
 const AddCocktails = () => {
     return (
         <>
-        < Header />
+            < Header />
 
             <div className={style.backgroundAdd}>
-                
+
                 <h3 className={style.h3Add}>
                     Füge deine eigenen Getränke hinzu!
                 </h3>
@@ -38,9 +38,10 @@ const AddCocktails = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
+            </>
+            )
 
-        <Footer />
-        </>
-    )
+    
 }
 export default AddCocktails
