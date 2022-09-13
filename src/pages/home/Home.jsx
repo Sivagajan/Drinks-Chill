@@ -1,11 +1,16 @@
+import { Link } from "react-router-dom"
+
 const Home = () => {
 
     return(
+        <>
         <main>
             <section>
                 <article>
-                    <h2>Gin</h2>
-                    <p>Let the evening BeGin</p>
+                    <a>
+                        <h2>Gin</h2>
+                        <p>Let the evening BeGin</p>
+                    </a>
                 </article>
                 <article>
                     <h2>Vodka</h2>
@@ -29,6 +34,7 @@ const Home = () => {
                 </article>
             </section>
         </main>
+        </>
 
     )
 }

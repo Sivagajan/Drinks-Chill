@@ -9,11 +9,7 @@ serif; */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-div{                                       
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  background-color: #262B46;  
 }
 
 
