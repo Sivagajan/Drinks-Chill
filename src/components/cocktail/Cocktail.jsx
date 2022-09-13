@@ -7,8 +7,6 @@ import AnimationPopup from '../animationPopup/AnimationPopup';
 const Cocktail = (props) => {
     const [popupBtn, setpopupBtn] = useState(false)
 
-
-
     return (
         <>
             <AnimationPopup trigger={popupBtn} setTrigger={setpopupBtn} id={props.id}></AnimationPopup>

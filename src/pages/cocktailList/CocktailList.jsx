@@ -51,7 +51,7 @@ const Cocktails = (props) => {
 
         console.log(cocktails)
         console.log('fetchen tut er hier auch')
-    }, [params])
+    }, [url])
 
     return (
         <>

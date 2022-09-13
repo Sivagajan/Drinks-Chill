@@ -3,11 +3,6 @@ import style from './Recipe.module.css'
 
 const Recipe = (props) => {
 
-
-
-    console.log(props.cocktailName)
-
-
     const [recipe, setRecipe] = useState([])
 
     useEffect(() => {
@@ -16,7 +11,7 @@ const Recipe = (props) => {
             .then(res => res.json())
             .then(data => setRecipe(data.drinks[0]))
         console.log(recipe)
-    }, [])
+    }, [props.id])
 
 
 
