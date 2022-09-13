@@ -14,6 +14,5 @@ const Cocktail = (props) => {
             <p className={style.cocktailName}>{props.cocktail_Name}</p>
         </>
     );
-
 }
 export default Cocktail
