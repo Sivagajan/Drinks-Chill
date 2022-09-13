@@ -1,7 +1,16 @@
-.style1{
-    background-color: green;
+
+.cocktailContainer {
+
+    padding: 10px;
+    overflow: hidden;
 }
 
-.right{
-    align-items: right;
+.cocktailName {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: inline;
+    font-weight: bold;
+    text-align: center;
+    writing-mode: vertical-lr;
 }
+

@@ -4,13 +4,18 @@ import img2 from '../../img/image2.png'
 import img3 from '../../img/image3.png'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
+
 const AddCocktails = () => {
     return (
         <>
+        < Header />
+
             <div className={style.backgroundAdd}>
+                
                 <h3 className={style.h3Add}>
                     Füge deine eigenen Getränke hinzu!
                 </h3>
+
                 <div className={style.addFlex}>
                     <div className={style.inputList}>
                         <input placeholder='Name' type="text" />
@@ -25,6 +30,7 @@ const AddCocktails = () => {
                         <input placeholder='Menge Zutat 3' type="text" />
                         <button>Submit</button>
                     </div>
+
                     <div className={style.imgRight}>
                         <img src={img1} alt="" />
                         <img src={img3} alt="" />
@@ -32,6 +38,7 @@ const AddCocktails = () => {
                     </div>
                 </div>
             </div>
+        <Footer />
 
         </>
     )

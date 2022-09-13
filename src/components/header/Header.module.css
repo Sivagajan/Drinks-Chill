@@ -21,7 +21,7 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
-    height: 48vh;
+    height: 480px;
 }
 
 .heading {
@@ -66,8 +66,4 @@ h1 {
 .arrows img {
     display: block;
     flex-direction: column;
-}
-
-section {
-    margin-left: 49%;
 }
