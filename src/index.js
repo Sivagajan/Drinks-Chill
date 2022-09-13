@@ -21,8 +21,8 @@ root.render(
         <Route path='/addCocktails' element={< AddCocktails />} />
         <Route path='/about' element={< About />} />
         <Route path='/contact' element={< Contact />} />
-
         <Route path='/recipe' element={< Recipe />} />
+        <Route path='/popupwindow' element={< Popupwindow />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
