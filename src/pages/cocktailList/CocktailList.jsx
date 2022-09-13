@@ -23,7 +23,6 @@ const Cocktails = (props) => {
 
     return (
 
-
         <>
 
             < Header />
