@@ -21,7 +21,13 @@ header {
     color: white;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     height: 480px;
+=======
+    height: 48vh;
+    height: 50vh;
+
+>>>>>>> c510034f03e6775cc85928c7f6bb12ecc8989725
 }
 
 .heading {
@@ -66,4 +72,12 @@ h1 {
 .arrows img {
     display: block;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+}
+
+.arrows {
+
+    margin-left: 49%;
+>>>>>>> c510034f03e6775cc85928c7f6bb12ecc8989725
 }
