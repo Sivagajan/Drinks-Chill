@@ -1,0 +1,47 @@
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.style1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.style2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.style3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.style4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.style5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.style6 {
+    display: flex;
+    flex-direction: column;
+}
