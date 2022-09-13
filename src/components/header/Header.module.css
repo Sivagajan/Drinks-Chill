@@ -64,8 +64,8 @@ h1 {
 }
 
 .arrows img {
-    display: block;
-    flex-direction: column;
+     display: block;
+    flex-direction: column; 
 }
 
 .arrows {

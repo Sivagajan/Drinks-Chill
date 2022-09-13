@@ -5,7 +5,7 @@ sans-serif;
 font-family: 'Playfair Display',
 serif; */
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -13,34 +13,55 @@ serif; */
 }
 
 
-.style1{
-  background-color: #8D82C4;
+.style1 {
+  background-color: #6FC3DF;
   font-family: 'Montserrat', sans-serif;
-    color: white;
+  color: white;
 }
 
 .style2 {
-  background-color: #E7B788;
+  background-color: #8D82C4;
   font-family: 'Montserrat', sans-serif;
-    color: white;
+  color: white;
 }
 
 .style3 {
+  background-color: #EC8D81;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.style4 {
+  background-color: #E7B788;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.style5 {
+  background-color: #8EA9E8;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.style6 {
   background-color: #87C5A4;
   font-family: 'Montserrat', sans-serif;
-    color: white;
+  color: white;
 }
 
-.right{
+.right {
+  /* padding: 15px 0 15px 0; */
+  height: 320px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: right;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.left{
+.left {
+  height: 320px;
   display: flex;
-  justify-content: left;
+  justify-content: space-around;
+  align-items: center;
 }
-
-
 
