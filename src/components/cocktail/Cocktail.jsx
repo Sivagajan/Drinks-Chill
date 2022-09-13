@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom'
 import style from './Cocktail.module.css'
 
 const Cocktail = (props) => {
 return(
     
     <>                                                        
-    
+        
         <img src={props.cocktail_Img} className={style.image} height={240}></img>
-        <h3 className={style.cocktailName}>{props.cocktail_Name}</h3>
+        <p className={style.cocktailName}>{props.cocktail_Name}</p>
 
     </>
     )
