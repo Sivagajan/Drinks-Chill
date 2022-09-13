@@ -9,6 +9,7 @@ import Popupwindow from './components/popupwindow/Popupwindow';
 import AddCocktails from './pages/addCocktails/AddCocktails';
 import About from './pages/about/About'
 import Contact from './pages/contact/Contact';
+import Recipe from './components/recipe/Recipe'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,12 +17,12 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={< App />} />
-        <Route path='/cocktailList' element={< CocktailList />} />
-        <Route path='/popupwindow' element={< Popupwindow />} />
+        <Route path='/cocktailList/:drink' element={< CocktailList />} />
         <Route path='/addCocktails' element={< AddCocktails />} />
         <Route path='/about' element={< About />} />
         <Route path='/contact' element={< Contact />} />
 
+        <Route path='/recipe' element={< Recipe />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

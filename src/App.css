@@ -9,7 +9,11 @@ serif; */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* background-color: #262B46;   */
+  
+}
+
+body{
+  background-color: #262B46;  
 }
 
 
