@@ -7,7 +7,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CocktailList from './pages/cocktailList/CocktailList';
 import Popupwindow from './components/popupwindow/Popupwindow';
 import AddCocktails from './pages/addCocktails/AddCocktails';
-import Motion from './components/animationPopup/AnimationPopup'
+import About from './pages/about/About'
+import Contact from './pages/contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +19,8 @@ root.render(
         <Route path='/cocktailList' element={< CocktailList />} />
         <Route path='/popupwindow' element={< Popupwindow />} />
         <Route path='/addCocktails' element={< AddCocktails />} />
-        <Route path='/motion' element={< Motion />} />
+        <Route path='/about' element={< About />} />
+        <Route path='/contact' element={< Contact />} />
 
       </Routes>
     </BrowserRouter>
