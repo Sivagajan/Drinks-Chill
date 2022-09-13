@@ -1,0 +1,83 @@
+.backgroundAdd {
+    background-color: #262B46;
+    padding-top: 10vh;
+    padding-left: 5%;
+}
+
+.h3Add {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5vh;
+
+}
+
+.addFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputList input {
+    display: block;
+    margin: 1vh;
+    padding: 6px 30px;
+}
+
+.inputList button {
+    padding: 6px 84px;
+    margin-left: 3.5%;
+    border-radius: 6px;
+    border: #262B46;
+    background-color: #6FC3DF;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+
+
+}
+
+.inputList input:placeholder-shown {
+    font-family: 'Montserrat', sans-serif;
+    color: #262B46;
+}
+
+.inputList input:nth-of-type(1) {
+    background-color: #6FC3DF;
+}
+
+.inputList input:nth-of-type(2) {
+    background-color: #8D82C4;
+}
+
+.inputList input:nth-of-type(3) {
+    background-color: #EC8D81;
+}
+
+.inputList input:nth-of-type(4) {
+    background-color: #E7B788;
+    height: 90px;
+}
+
+.inputList input:nth-of-type(5) {
+    background-color: #8EA9E8;
+}
+
+.inputList input:nth-of-type(6) {
+    background-color: #87C5A4;
+}
+
+.inputList input:nth-of-type(7) {
+    background-color: #6FC3DF;
+}
+
+.inputList input:nth-of-type(8) {
+    background-color: #8D82C4;
+}
+
+.inputList input:nth-of-type(9) {
+    background-color: #EC8D81;
+}
+
+.inputList input:nth-of-type(10) {
+    background-color: #E7B788;
+}
