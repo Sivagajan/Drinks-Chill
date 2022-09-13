@@ -1,0 +1,41 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Playfair Display',  */
+
+/* background-color: #262B46 */
+
+.aboutBackground {
+    background-color: #262B46;
+    padding: 20vh 10% 3vh 10%;
+    color: white;
+}
+
+.aboutUs {
+    padding-bottom: 10vh;
+    font-size: 3em;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.pSize {
+    font-size: 15px;
+
+}
+
+.pAbout {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    padding-bottom: 5vh;
+}
+
+.flexAbout {
+    display: flex;
+}
+
+.aboutImg {
+    width: 95%;
+    padding-bottom: 3vh;
+}
+
+.aboutCard1 {
+    display: inline-block;
+    padding: 10px;
+}

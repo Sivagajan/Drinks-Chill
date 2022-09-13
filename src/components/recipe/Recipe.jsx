@@ -9,10 +9,17 @@ const Recipe = (props) => {
     useEffect(() => {
 
         fetch(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${props.id}`)
+<<<<<<< HEAD
             .then(res => res.json())
             .then(data => setRecipe(data.drinks[0]))
         console.log(recipe)
     }, [])
+=======
+            .then (res => res.json())
+            .then (data => setRecipe(data.drinks[0]))
+                console.log(recipe)
+    },[])
+>>>>>>> 938c839a655fcfe36656ce08380f38fff1e0b94c
 
 
 

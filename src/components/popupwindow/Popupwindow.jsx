@@ -14,8 +14,8 @@ const Popupwindow = () => {
 
                     <Link className={style.popupLink} to="/">Home</Link>
                     <Link className={style.popupLink} to="/addCocktails">Add Cocktail</Link>
-                    <Link className={style.popupLink} to="/users">About</Link>
-                    <Link className={style.popupLink} to="/users">Contact</Link>
+                    <Link className={style.popupLink} to="/about">About</Link>
+                    <Link className={style.popupLink} to="/contact">Contact</Link>
 
                 </div>
             </div>
