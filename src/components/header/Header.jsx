@@ -2,16 +2,15 @@ import style from './Header.module.css'
 import { Link } from "react-router-dom"
 import vector from '../../img/Vector.png'
 import { useState } from 'react'
-import AnimationPopup from '../animationPopup/AnimationPopup'
 
 const Header = () => {
+    
     const [cocktail, setCocktail] = useState('')
-    const [inputPopup, setInputPopup] = useState(false)
     console.log(cocktail)
-    console.log(inputPopup)
+
     return (
 
-        <>
+        <div>
             <header className={style.hero}>
                 <nav className={style.logo}>
                     <h2>DRINKS & CHILL</h2>
@@ -24,7 +23,9 @@ const Header = () => {
 
                 <div className={style.btn}>
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
-                    <button onClick={() => setInputPopup(true)}>Search</button>
+
+                    <Link to = {`/cocktailList/${cocktail}`}> <button >Search</button></Link>  
+                    
                 </div>
 
                 <section className={style.arrows}>
@@ -33,9 +34,9 @@ const Header = () => {
                     <img src={vector} alt="" />
 
                 </section>
-                <AnimationPopup name={cocktail} trigger={inputPopup} setTrigger={setInputPopup}></AnimationPopup>
+
             </header>
-        </>
+        </div>
     )
 }
 

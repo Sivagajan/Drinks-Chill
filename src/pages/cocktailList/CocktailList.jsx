@@ -32,6 +32,8 @@ const Cocktails = (props) => {
         case 'rum':
             url = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Rum'
             break
+        default:
+            url= `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${params.drink}`
     }
 
 
@@ -46,9 +48,10 @@ const Cocktails = (props) => {
         fetch(url)
             .then(res => res.json())
             .then(data => setCocktails(data.drinks))
+
         console.log(cocktails)
         console.log('fetchen tut er hier auch')
-    }, [])
+    }, [params])
 
     return (
         <>
@@ -61,8 +64,9 @@ const Cocktails = (props) => {
                     return (
                         <div className={`style${Math.floor((e % 6) + 1)} ${e % 2 === 0 ? 'left' : 'right'}`}
                         >
+                            {/* {console.log(item.strDrink)} */}
 
-                            <Cocktail trigger={true} key={e} id={item.idDrink} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
+                            <Cocktail trigger={true} key={e} id={item.idDrink} cocktail_Img={item.strDrinkThumb} cocktailName={item.strDrink} />
                         </div>)
                 }
                 )
