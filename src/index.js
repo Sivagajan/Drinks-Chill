@@ -13,6 +13,7 @@ import About from './pages/about/About'
 import Contact from './pages/contact/Contact';
 >>>>>>> 938c839a655fcfe36656ce08380f38fff1e0b94c
 import Recipe from './components/recipe/Recipe'
+import AnimationPopup from './components/animationPopup/AnimationPopup';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,7 +31,11 @@ root.render(
         <Route path='/contact' element={< Contact />} />
         <Route path='/recipe' element={< Recipe />} />
         <Route path='/popupwindow' element={< Popupwindow />} />
+<<<<<<< HEAD
 >>>>>>> 938c839a655fcfe36656ce08380f38fff1e0b94c
+=======
+        <Route path='/animationpopup' element={< AnimationPopup />} />
+>>>>>>> Stanislav1
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
