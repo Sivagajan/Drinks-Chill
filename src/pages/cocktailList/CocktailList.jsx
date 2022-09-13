@@ -15,6 +15,7 @@ const Cocktails = (props) => {
             .then(res => res.json())
             .then(data => setCocktails(data.drinks))
         console.log(cocktails)
+
         console.log('fetchen tut er hier auch')
     }, [])
 
@@ -28,7 +29,6 @@ const Cocktails = (props) => {
 
                 )
             })}
-
 
         </>
 
