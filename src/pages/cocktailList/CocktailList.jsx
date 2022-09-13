@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react"
 import Cocktail from '../../components/cocktail/Cocktail'
+import style from './CocktailList.module.css'
+import Header from '../../components/header/Header'
+import Footer from '../../components/footer/Footer'
 
 const Cocktails = (props) => {
 
@@ -22,14 +25,19 @@ const Cocktails = (props) => {
     return (
 
         <>
-            {cocktails.map((item, e) => {
+
+        < Header />
+            <div className={style.div}>
+
+                {cocktails.map((item, e) => {
 
                 return (
-                    <Cocktail key={e} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
+                        <Cocktail key={e} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
+                        )
+                    })}
+            </div>
 
-                )
-            })}
-
+        < Footer />
         </>
 
     )
