@@ -5,20 +5,21 @@
 }
 
 .style1{
- background-color: #8D82C4;
- 
-
+    background-color: #8D82C4;
 }
+
 .style2 {
- background-color: #E7B788;
+    background-color: #E7B788;
 }
 
 .style3 {
- background-color: #87C5A4;
-; 
+    background-color: #87C5A4;
 }
 
 .right{
     justify-content: right;
 }
- 
+
+.left{
+    justify-content: left;
+}
