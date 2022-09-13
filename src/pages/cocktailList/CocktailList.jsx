@@ -20,19 +20,15 @@ const Cocktails = (props) => {
     }, [])
 
     return (
-<<<<<<< HEAD
-=======
 
->>>>>>> main
+
+
         <>
             {cocktails.map((item, e) => {
 
                 return (
                     <Cocktail key={e} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
-<<<<<<< HEAD
-=======
 
->>>>>>> main
                 )
             })}
 
