@@ -16,7 +16,7 @@ root.render(
         <Route path='/' element={< App />} />
         <Route path='/cocktailList' element={< CocktailList />} />
         <Route path='/popupwindow' element={< Popupwindow />} />
-        <Route path='/addcocktails' element={< AddCocktails />} />
+        <Route path='/addCocktails' element={< AddCocktails />} />
 
       </Routes>
     </BrowserRouter>
