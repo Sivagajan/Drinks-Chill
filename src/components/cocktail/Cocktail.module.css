@@ -1,3 +1,15 @@
-.heading{
-    
+.cocktailContainer {
+    background-color: #262B46;
+    padding: 10px;
+    overflow: hidden;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: inline;
+    font-weight: bold;
+    text-align: center;
+    writing-mode: vertical-lr;
+
 }
