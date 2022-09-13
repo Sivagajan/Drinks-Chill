@@ -9,4 +9,38 @@ serif; */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* background-color: #262B46;   */
 }
+
+
+.style1{
+  background-color: #8D82C4;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.style2 {
+  background-color: #E7B788;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.style3 {
+  background-color: #87C5A4;
+  font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.right{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+}
+
+.left{
+  display: flex;
+  justify-content: left;
+}
+
+
+

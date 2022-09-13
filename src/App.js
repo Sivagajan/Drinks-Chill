@@ -1,6 +1,8 @@
 import './App.css';
 import Header from './components/header/Header.jsx'
 import Footer from './components/footer/Footer.jsx'
+import Home from './pages/home/Home'
+
 import AddCocktails from './pages/addCocktails/AddCocktails';
 import AnimationPopup from './components/animationPopup/AnimationPopup';
 
@@ -8,9 +10,9 @@ function App() {
   return (
     <div className="App">
       < Header />
-      <AddCocktails />
+      < Home />
       <Footer />
-    </div>
+    </div >
   );
 }
 export default App;

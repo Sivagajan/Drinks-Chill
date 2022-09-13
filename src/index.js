@@ -8,7 +8,6 @@ import CocktailList from './pages/cocktailList/CocktailList';
 import Popupwindow from './components/popupwindow/Popupwindow';
 import AddCocktails from './pages/addCocktails/AddCocktails';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -17,7 +16,8 @@ root.render(
         <Route path='/' element={< App />} />
         <Route path='/cocktailList' element={< CocktailList />} />
         <Route path='/popupwindow' element={< Popupwindow />} />
-        <Route path='/addcocktails' element={< AddCocktails />} />
+        <Route path='/addCocktails' element={< AddCocktails />} />
+
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

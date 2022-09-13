@@ -22,6 +22,8 @@ header {
     display: flex;
     flex-direction: column;
     height: 48vh;
+    height: 50vh;
+
 }
 
 .heading {
@@ -68,6 +70,7 @@ h1 {
     flex-direction: column;
 }
 
-section {
+.arrows {
+
     margin-left: 49%;
 }

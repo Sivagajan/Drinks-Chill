@@ -1,3 +1,16 @@
-.heading{
-    
+
+.cocktailContainer {
+
+    padding: 10px;
+    overflow: hidden;
 }
+
+.cocktailName {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: inline;
+    font-weight: bold;
+    text-align: center;
+    writing-mode: vertical-lr;
+}
+
