@@ -7,7 +7,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CocktailList from './pages/cocktailList/CocktailList';
 import Popupwindow from './components/popupwindow/Popupwindow';
 import AddCocktails from './pages/addCocktails/AddCocktails';
+import About from './pages/about/About'
+import Contact from './pages/contact/Contact';
 import Recipe from './components/recipe/Recipe'
+import AnimationPopup from './components/animationPopup/AnimationPopup';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +20,21 @@ root.render(
         <Route path='/' element={< App />} />
         <Route path='/cocktailList/:drink' element={< CocktailList />} />
         <Route path='/addCocktails' element={< AddCocktails />} />
+
         <Route path='/recipe' element={< Recipe />} />
+
+
+
+
+        <Route path='/about' element={< About />} />
+        <Route path='/contact' element={< Contact />} />
+        <Route path='/recipe' element={< Recipe />} />
+        <Route path='/popupwindow' element={< Popupwindow />} />
+
+
+
+        <Route path='/animationpopup' element={< AnimationPopup />} />
+
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

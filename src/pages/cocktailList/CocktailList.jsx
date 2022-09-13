@@ -10,11 +10,11 @@ const Cocktails = (props) => {
     const [cocktails, setCocktails] = useState([])
     const params = useParams()
 
-    let url =''
+    let url = ''
     console.log(params.drink)
 
-    switch(params.drink){
-        case 'random': 
+    switch (params.drink) {
+        case 'random':
             url = 'https://www.thecocktaildb.com/api/json/v1/1/random.php'
             break
         case 'non-Alcoholic':
@@ -32,10 +32,10 @@ const Cocktails = (props) => {
         case 'rum':
             url = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Rum'
             break
-        }
+    }
 
 
-        console.log(url)
+    console.log(url)
 
 
     useEffect(() => {
@@ -62,7 +62,7 @@ const Cocktails = (props) => {
                         <div className={`style${Math.floor((e % 6) + 1)} ${e % 2 === 0 ? 'left' : 'right'}`}
                         >
 
-                            <Cocktail key={e} id={item.idDrink} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
+                            <Cocktail trigger={true} key={e} id={item.idDrink} cocktail_Img={item.strDrinkThumb} cocktail_Name={item.strDrink} />
                         </div>)
                 }
                 )

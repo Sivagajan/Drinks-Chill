@@ -8,21 +8,19 @@ const Recipe = (props) => {
 
     useEffect(() => {
 
-        fetch(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${props.id}`)
-            .then (res => res.json())
-            .then (data => setRecipe(data.drinks[0]))
-                console.log(recipe)
-    },[])
+        fetch(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=17222`)
+            .then(res => res.json())
+            .then(data => setRecipe(data.drinks[0]))
+        console.log(recipe)
+    }, [])
 
 
 
     return (
-        <>
-            <main className={style.recipeContainer}>
-                <section>
-                    <img src={recipe.strDrinkThumb} height={319} alt="" />
-                </section>
-                <p className={style.textUnder}>{recipe.strDrink} </p>
+        <><div>
+            <img src={recipe.strDrinkThumb} alt="" /></div>
+            <div>
+                <p className={style.textUnder}>{recipe.strDrink}</p>
                 <h2 className={style.heading}>{recipe.strCategory}</h2>
                 <p>{recipe.strIngredient1}</p>
                 <p>{recipe.strMeasure1}</p>
@@ -33,8 +31,7 @@ const Recipe = (props) => {
                 <p>{recipe.strIngredient4}</p>
                 <p>{recipe.strMeasure4}</p>
                 <p>{recipe.strInstructionsDE}</p>
-            </main>
-
+            </div>
         </>
     )
 
