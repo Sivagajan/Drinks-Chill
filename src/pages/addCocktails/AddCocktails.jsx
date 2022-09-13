@@ -30,10 +30,7 @@ const AddCocktails = () => {
                         <input placeholder='Menge Zutat 3' type="text" />
                         <button>Submit</button>
                     </div>
-<<<<<<< HEAD
 
-=======
->>>>>>> c510034f03e6775cc85928c7f6bb12ecc8989725
                     <div className={style.imgRight}>
                         <img src={img1} alt="" />
                         <img src={img3} alt="" />
@@ -41,14 +38,10 @@ const AddCocktails = () => {
                     </div>
                 </div>
             </div>
-<<<<<<< HEAD
-        <Footer />
-
-=======
-
             <Footer />
->>>>>>> c510034f03e6775cc85928c7f6bb12ecc8989725
-        </>
-    )
+            </>
+            )
+
+    
 }
 export default AddCocktails

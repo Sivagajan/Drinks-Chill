@@ -5,7 +5,9 @@ const Popupwindow = () => {
         <>
             <div className={style.backgroundPopup}>
                 <div className={style.headerPopup}>
+
                     <h2 className={style.h2}>DRINKS & CHILL</h2>
+
                     <Link className={style.closingX} to="/">X</Link>
                 </div>
                 <div className={style.listHeader}>
@@ -14,10 +16,10 @@ const Popupwindow = () => {
                     <Link className={style.popupLink} to="/addCocktails">Add Cocktail</Link>
                     <Link className={style.popupLink} to="/users">About</Link>
                     <Link className={style.popupLink} to="/users">Contact</Link>
+
                 </div>
             </div>
         </>
     )
 }
 export default Popupwindow
-
