@@ -1,6 +1,6 @@
 import style from './Footer.module.css'
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 
@@ -15,7 +15,7 @@ const Footer = () => {
 
 
             </div>
-            <ul>
+{/*             <ul>
                 <li>
                     <a href="#">
                         <i className="fab fa-facebook-f icon"></i>    </a>
@@ -28,7 +28,7 @@ const Footer = () => {
                 <li>
                     <a href="#"><i className="fab fa-google-plus-g icon"></i></a></li>
             </ul>
-
+ */}
 
 
         </>
