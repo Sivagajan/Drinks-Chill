@@ -5,16 +5,7 @@ import AnimationPopup from '../animationPopup/AnimationPopup';
 
 
 const Cocktail = (props) => {
-<<<<<<< HEAD
-return(
-    
-    <>                                                        
-        
-        <img src={props.cocktail_Img} className={style.image} height={240}></img>
-        <p className={style.cocktailName}>{props.cocktail_Name}</p>
-=======
     const [popupBtn, setpopupBtn] = useState(false)
->>>>>>> main
 
     return (
         <>
