@@ -23,21 +23,6 @@
     padding: 2vw;
 }
 
-/* 
-.popup-inner {
-    position: relative;
-    padding: 32px;
-    width: 100%;
-    max-width: 640px;
-    background-color: azure;
-}
-
-.popup-inner .close-btn {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-} */
-
 @media only screen and (max-width:390px) {
     
         body{
@@ -46,11 +31,5 @@
         .popup{
             height:843px;
         }
+}
 
-    
-    
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 08e9e3f0f4ec8e3af63a9ada021e43a83b4f602b
