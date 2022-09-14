@@ -2,26 +2,16 @@ import style from './AddCocktails.module.css'
 import img1 from '../../img/image1.png'
 import img2 from '../../img/image2.png'
 import img3 from '../../img/image3.png'
-import searchButton from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 
 const AddCocktails = () => {
-<<<<<<< HEAD
-
-    const place = 'addCocktails'
-    return (
-        <>
-            
-            <Header place={place}/>
-=======
     const place = 'addCocktails'
     return (
         <>
 
             <Header place={place} />
 
->>>>>>> Hussein
             <div className={style.backgroundAdd}>
                 
                 <h3 className={style.h3Add}>

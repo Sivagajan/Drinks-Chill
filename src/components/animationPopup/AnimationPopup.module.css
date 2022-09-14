@@ -1,9 +1,5 @@
 .popup {
-<<<<<<< HEAD
-    max-width:1440px;
-=======
     max-width: 1440px;
->>>>>>> Hussein
     background-color: #262B46;
     border-radius: 25px;
     box-shadow: 0 3rem 3rem rgb(0 0 0 / 10%);
@@ -17,18 +13,13 @@
     z-index: 3;
 }
 
-<<<<<<< HEAD
-.pAnimation{
-=======
 .pAnimation {
->>>>>>> Hussein
     text-align: right;
     padding-right: 2vh;
     padding-top: 2vh;
 }
 
-<<<<<<< HEAD
-.divAnimation{
+.divAnimation {
     padding: 2vw;
 }
 
@@ -39,17 +30,23 @@
     width: 100%;
     max-width: 640px;
     background-color: azure;
-=======
-.divAnimation {
-    padding: 2vw;
->>>>>>> Hussein
 }
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+} */
 
 @media only screen and (max-width:390px) {
     
         body{
-            font-size: 0.5em;
+            font-size: 1em;
         }
+        .popup{
+            height:843px;
+        }
+
     
     
 }
