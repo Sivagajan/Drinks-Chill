@@ -7,13 +7,13 @@ const Home = () => {
         <>
             <main>
                 <section className={style.sectionHome}>
-                    <article className="style1 left">
+                    <article className="style1 left ">
                         <Link to='cocktailList/gin'>
                             <h2>Gin</h2>
                             <p>Let the evening BeGin</p>
                         </Link>
                     </article>
-                    <article className="style2 right {style.articleHome}">
+                    <article className="style2 right">
                         <Link to='/cocktailList/vodka'>
                             <h2>Vodka</h2>
                             <p>if life gives you Lemons, add Vodka</p>

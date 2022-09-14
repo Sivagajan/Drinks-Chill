@@ -5,10 +5,13 @@ import { useState } from 'react';
 import ChrisWeint from '../../components/chrisWeint/ChrisWeint';
 
 const Contact = () => {
+
     const [popupBtn1, setpopupBtn1] = useState(false)
+
+    const place = 'noSearch'
     return (
         <>
-            < Header />
+        < Header place={place} />
             <div className="contactBackground">
                 <h3 className="h3Contact">Contact</h3>
                 <p className="pContact">Du hast Bugs auf unserer schönen Webiste entdeckt? Dann maile doch entweder an christian.peters@supercode.de oder benutze das Kontaktformular um uns wissen zu lassen wie wir unseren    Coding Guru Christian noch mehr Verzweifelung fühlen lassen können.</p>
