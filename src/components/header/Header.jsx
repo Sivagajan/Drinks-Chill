@@ -12,6 +12,8 @@ const Header = (props) => {
 
     const params = useParams()
 
+    
+
     console.log(props.place)
 
     return (
