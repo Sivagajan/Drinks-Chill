@@ -5,7 +5,7 @@
 
 .aboutBackground {
     background-color: #262B46;
-    padding: 20vh 10% 3vh 10%;
+    padding: 20vh 10% 0 10%;
     color: white;
 }
 
@@ -23,7 +23,6 @@
 .pAbout {
     font-family: 'Montserrat', sans-serif;
     display: block;
-    padding-bottom: 5vh;
 }
 
 .flexAbout {
