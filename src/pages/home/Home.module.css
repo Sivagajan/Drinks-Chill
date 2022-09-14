@@ -1,6 +1,7 @@
 .sectionHome {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
 }
 
 a {
@@ -10,12 +11,12 @@ a {
 
 @media only screen and (max-width:390px){
     .sectionHome {
-            display: grid;
-            grid-template-columns: 1fr;
-            font-size: 18px;
-        }
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 18px;
+    }
 
-    .right{
+    .right {
         text-align: right;
     }
 }
