@@ -25,17 +25,15 @@ const Header = () => {
                 <div className={style.btn}>
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
 
-                    <Link to={`/cocktailList/${cocktail}`}> <button className='glow-on-hover'>Search</button></Link>
+                    <Link to={`/cocktailList/${cocktail}`}> <button className={style.glowonhover}>Search</button></Link>
 
                 </div>
-
                 <section className={style.arrows}>
                     <img src={vector} alt="" />
                     <img src={vector} alt="" />
                     <img src={vector} alt="" />
 
                 </section>
-
             </header>
         </div>
     )
