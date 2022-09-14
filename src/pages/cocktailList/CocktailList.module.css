@@ -1,10 +1,13 @@
+<<<<<<< HEAD
+.div {
+=======
 
 .divCocktailList{                                     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.style1{
+.style1 {
     background-color: #8D82C4;
 }
 
@@ -16,11 +19,11 @@
     background-color: #87C5A4;
 }
 
-.right{
+.right {
     justify-content: right;
 }
 
-.left{
+.left {
     justify-content: left;
 }
 
