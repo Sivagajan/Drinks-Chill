@@ -56,7 +56,6 @@
 .contactInput3 {
     display: block;
     padding: 80px;
-<<<<<<< HEAD
     background-color: #84879a;
     border-radius: 5px;
     border: #84879a;
@@ -69,7 +68,6 @@
     border: #84879a;
     border-radius: 5px;
     color: white;
-=======
 }
 
 .h3Contact{
@@ -95,5 +93,4 @@
         display: grid;
         margin-left: 0;
     }
->>>>>>> Hussein
 }
