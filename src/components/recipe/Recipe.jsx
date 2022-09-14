@@ -3,23 +3,26 @@ import style from './Recipe.module.css'
 
 const Recipe = (props) => {
 
-
     const [recipe, setRecipe] = useState([])
 
     useEffect(() => {
 
-        fetch(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=17222`)
+        fetch(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${props.id}`)
             .then(res => res.json())
             .then(data => setRecipe(data.drinks[0]))
         console.log(recipe)
-    }, [])
+    }, [props.id])
 
 
 
     return (
-        <><div>
-            <img src={recipe.strDrinkThumb} alt="" /></div>
+        <div className={style.recipeContainer}>
+
             <div>
+                <img className={style.imageContainer} src={recipe.strDrinkThumb} alt="" />
+            </div>
+        
+            <div >
                 <p className={style.textUnder}>{recipe.strDrink}</p>
                 <h2 className={style.heading}>{recipe.strCategory}</h2>
                 <p>{recipe.strIngredient1}</p>
@@ -32,7 +35,7 @@ const Recipe = (props) => {
                 <p>{recipe.strMeasure4}</p>
                 <p>{recipe.strInstructionsDE}</p>
             </div>
-        </>
+        </div>
     )
 
 
