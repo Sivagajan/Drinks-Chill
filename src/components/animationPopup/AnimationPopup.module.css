@@ -1,5 +1,5 @@
 .popup {
-    max-width:1440px;
+    max-width: 1440px;
     background-color: #262B46;
     border-radius: 25px;
     box-shadow: 0 3rem 3rem rgb(0 0 0 / 10%);
@@ -7,21 +7,23 @@
     max-height: calc(100vh - 200px);
     position: fixed;
     top: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     width: 90%;
     z-index: 3;
 }
 
-.pAnimation{
+.pAnimation {
     text-align: right;
     padding-right: 2vh;
     padding-top: 2vh;
+    cursor: pointer;
 }
 
-.divAnimation{
+.divAnimation {
     padding: 2vw;
 }
+
 
 /* 
 .popup-inner {

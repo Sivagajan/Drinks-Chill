@@ -11,10 +11,8 @@ const Recipe = (props) => {
             .then(res => res.json())
             .then(data => setRecipe(data.drinks[0]))
         console.log(recipe)
-        
+
     }, [props.id])
-
-
 
     return (
         <div className={style.recipeContainer}>
@@ -22,7 +20,7 @@ const Recipe = (props) => {
             <div>
                 <img className={style.imageRecipe} src={recipe.strDrinkThumb} alt="" />
             </div>
-        
+
             <div className={style.divIngerdients}>
                 <h2 className={style.heading}>{recipe.strDrink}</h2>
 
