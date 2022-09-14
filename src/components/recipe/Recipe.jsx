@@ -19,10 +19,17 @@ const Recipe = (props) => {
     return (
         <div className={style.recipeContainer}>
 
+<<<<<<< HEAD
             <div>
                 <img className={style.imageRecipe} src={recipe.strDrinkThumb} alt="" />
             </div>
         
+=======
+            <div className={style.imgRecipeDiv}>
+                <img className={style.imageRecipe} src={recipe.strDrinkThumb} alt="" />
+            </div>
+
+>>>>>>> Hussein
             <div className={style.divIngerdients}>
                 <h2 className={style.heading}>{recipe.strDrink}</h2>
 
@@ -40,7 +47,6 @@ const Recipe = (props) => {
             </div>
         </div>
     )
-
 
 }
 

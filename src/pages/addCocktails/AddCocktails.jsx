@@ -7,12 +7,21 @@ import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 
 const AddCocktails = () => {
+<<<<<<< HEAD
 
     const place = 'addCocktails'
     return (
         <>
             
             <Header place={place}/>
+=======
+    const place = 'addCocktails'
+    return (
+        <>
+
+            <Header place={place} />
+
+>>>>>>> Hussein
             <div className={style.backgroundAdd}>
                 
                 <h3 className={style.h3Add}>
@@ -55,4 +64,5 @@ const AddCocktails = () => {
 
 
 }
+
 export default AddCocktails

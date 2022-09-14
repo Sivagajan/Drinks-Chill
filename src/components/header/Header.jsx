@@ -9,10 +9,14 @@ const Header = (props) => {
     
     const [cocktail, setCocktail] = useState('')
     console.log(cocktail)
+<<<<<<< HEAD
 
     const params = useParams()
 
     console.log(props.place)
+=======
+    return (
+>>>>>>> Hussein
 
     return (
         <div>
@@ -23,9 +27,10 @@ const Header = (props) => {
                 </nav>
                 <div className={style.heading}>
                     <Link to='/'><h1>Cocktails & Getränke!</h1></Link>
-                    <p>HERZLICH WILKOMMEN IN DER WELT DER COCKTAILS UND DER GETRÄNKE</p>
+                    <p className={style.pTagHeader}>HERZLICH WILKOMMEN IN DER WELT DER COCKTAILS UND DER GETRÄNKE</p>
                 </div>
 
+<<<<<<< HEAD
                 {props.place != 'addCocktails' ?<div className={style.btn}>
 
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
@@ -33,6 +38,15 @@ const Header = (props) => {
                     <Link to = {`/cocktailList/${cocktail}`}> <button >Search</button></Link>  
                     
                 </div> : null}
+=======
+                {props.place != 'addCocktails' ? <div className={style.btn}>
+
+                    <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
+
+                    <Link to={`/cocktailList/${cocktail}`}> <button >Search</button></Link>
+
+                </div>:null}
+>>>>>>> Hussein
 
                 <section className={style.arrows}>
                     <img src={vector} alt="" />

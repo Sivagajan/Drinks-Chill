@@ -23,3 +23,10 @@
 .left{
     justify-content: left;
 }
+
+@media only screen and (max-width:390px) {
+    .div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
