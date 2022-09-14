@@ -5,8 +5,11 @@ import siva from '../../img/siva.png'
 import hussein from '../../img/hussein.png'
 import stanni from '../../img/stanni.png'
 const About = () => {
+
+    const place = 'noSearch'
     return (
-        <>< Header />
+        <>
+        < Header place={place} />
             <div className="aboutBackground">
                 <div>
                     <h3 className="aboutUs">About</h3>

@@ -13,8 +13,11 @@ serif; */
 }
 
 body{
-  background-color: #262B46;  
+  background-color: #262B46; 
+  margin-left: 5vh;
+  margin-right: 5vh
 }
+
 
 
 .style1 {
@@ -54,18 +57,18 @@ body{
 }
 
 .right {
-  /* padding: 15px 0 15px 0; */
   height: 320px;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
+  padding-left: 5vh;
+  padding-right: 5vh;
   align-items: center;
 }
 
 .left {
   height: 320px;
   display: flex;
-  justify-content: space-around;
+  padding-left: 5vh;
+  padding-right: 5vh;
   align-items: center;
 }
 
