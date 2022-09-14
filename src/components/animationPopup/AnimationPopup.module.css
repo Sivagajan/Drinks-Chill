@@ -1,5 +1,4 @@
 .popup {
-    display: flex;
     max-width:1440px;
     background-color: #262B46;
     border-radius: 25px;
@@ -13,6 +12,17 @@
     width: 90%;
     z-index: 3;
 }
+
+.pAnimation{
+    text-align: right;
+    padding-right: 2vh;
+    padding-top: 2vh;
+}
+
+.divAnimation{
+    padding: 2vw;
+}
+
 /* 
 .popup-inner {
     position: relative;

@@ -57,7 +57,9 @@ const Cocktails = (props) => {
         <>
 
             < Header />
-            <div className={style.div}>
+
+
+            <div className={style.divCocktailList}>
 
                 {cocktails.map((item, e) => {
 
@@ -67,6 +69,9 @@ const Cocktails = (props) => {
                             {/* {console.log(item.strDrink)} */}
 
                             <Cocktail trigger={true} key={e} id={item.idDrink} cocktail_Img={item.strDrinkThumb} cocktailName={item.strDrink} />
+
+                            
+                            
                         </div>)
                 }
                 )

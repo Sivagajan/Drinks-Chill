@@ -1,9 +1,9 @@
-section {
+.sectionHome {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-article {
+.articleHome {
     display: flex;
     flex-direction: column;
 
