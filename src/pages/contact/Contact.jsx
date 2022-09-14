@@ -19,6 +19,7 @@ const Contact = () => {
                     <input className='contactInput2' type="email" name="" id="" />
                     <label className='ContactLabel3' htmlFor="">Ihre Nachricht</label>
                     <input className='contactInput3' type="text" />
+                    <button className='btnContact'>Submit</button>
                 </form>
             </div>
             <Footer />
