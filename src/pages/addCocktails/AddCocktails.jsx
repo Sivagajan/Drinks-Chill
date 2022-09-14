@@ -7,9 +7,12 @@ import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 
 const AddCocktails = () => {
+
+    const place = 'addCocktails'
     return (
         <>
-            <Header />
+            
+            <Header place={place}/>
             <div className={style.backgroundAdd}>
                 
                 <h3 className={style.h3Add}>

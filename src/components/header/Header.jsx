@@ -5,10 +5,14 @@ import { useState } from 'react'
 import { useParams } from "react-router-dom"
 
 
-const Header = () => {
+const Header = (props) => {
     
     const [cocktail, setCocktail] = useState('')
     console.log(cocktail)
+
+    const params = useParams()
+
+    console.log(props.place)
 
     return (
         <div>
@@ -22,12 +26,13 @@ const Header = () => {
                     <p>HERZLICH WILKOMMEN IN DER WELT DER COCKTAILS UND DER GETRÄNKE</p>
                 </div>
 
-                <div className={style.btn}>
+                {props.place != 'addCocktails' ?<div className={style.btn}>
+
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
 
                     <Link to = {`/cocktailList/${cocktail}`}> <button >Search</button></Link>  
                     
-                </div>
+                </div> : null}
 
                 <section className={style.arrows}>
                     <img src={vector} alt="" />
