@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 
 const Header = () => {
-    
+
     const [cocktail, setCocktail] = useState('')
     console.log(cocktail)
 
@@ -25,8 +25,8 @@ const Header = () => {
                 <div className={style.btn}>
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
 
-                    <Link to = {`/cocktailList/${cocktail}`}> <button >Search</button></Link>  
-                    
+                    <Link to={`/cocktailList/${cocktail}`}> <button className='glow-on-hover'>Search</button></Link>
+
                 </div>
 
                 <section className={style.arrows}>
