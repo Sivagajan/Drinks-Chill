@@ -1,12 +1,46 @@
 .recipeContainer {
     display: flex;
+    padding: 2vw;
+    align-items: center;
 }
 
-.imageContainer {
-    width: 50%;
-    padding: 10vh;
+.imageRecipe {
+    width: 240px;
+    align-items: baseline;
+    border-radius: 10px;
 }
 
 .heading {
     font-size: 28px;
+}
+
+.divIngerdients {
+    padding: 2vh;
+}
+
+.articleRecipe {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 50vw;
+    padding: 3vh;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width:390px) {
+    
+
+    .imageContainer{
+        justify-content: center;
+    }
+    .recipeContainer{
+        justify-content: center;
+        display: grid;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .imgRecipeDiv{
+        justify-content: center;
+        display: flex;
+    }
+
 }

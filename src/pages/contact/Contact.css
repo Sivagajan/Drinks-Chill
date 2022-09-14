@@ -6,8 +6,11 @@
 .contactBackground {
     background-color: #262B46;
     color: white;
-    font-family: 'Playfair Display';
     padding-top: 20vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
 
 }
 
@@ -23,4 +26,29 @@
 .contactInput3 {
     display: block;
     padding: 80px;
+}
+
+.h3Contact{
+    font-size:2em ;
+    line-height: 3em;
+}
+.pContact{
+        padding-bottom: 30px;
+}
+
+.formContact{
+    padding-top: 20px;
+}
+
+.ContactLabel{
+    padding:5px;
+    
+
+}
+@media only screen and (max-width:390px){
+    .contactBackground{
+        font-size: 13px;
+        display: grid;
+        margin-left: 0;
+    }
 }

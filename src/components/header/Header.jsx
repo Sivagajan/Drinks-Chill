@@ -4,11 +4,10 @@ import vector from '../../img/Vector.png'
 import { useState } from 'react'
 
 
-const Header = () => {
+const Header = (props) => {
     
     const [cocktail, setCocktail] = useState('')
     console.log(cocktail)
-
     return (
 
         <div>
@@ -19,15 +18,16 @@ const Header = () => {
                 </nav>
                 <div className={style.heading}>
                     <Link to='/'><h1>Cocktails & Getränke!</h1></Link>
-                    <p>HERZLICH WILKOMMEN IN DER WELT DER COCKTAILS UND DER GETRÄNKE</p>
+                    <p className={style.pTagHeader}>HERZLICH WILKOMMEN IN DER WELT DER COCKTAILS UND DER GETRÄNKE</p>
                 </div>
 
-                <div className={style.btn}>
+                {props.place != 'addCocktails' ? <div className={style.btn}>
+
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
 
-                    <Link to = {`/cocktailList/${cocktail}`}> <button >Search</button></Link>  
-                    
-                </div>
+                    <Link to={`/cocktailList/${cocktail}`}> <button >Search</button></Link>
+
+                </div>:null}
 
                 <section className={style.arrows}>
                     <img src={vector} alt="" />
