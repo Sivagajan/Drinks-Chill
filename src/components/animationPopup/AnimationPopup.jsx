@@ -5,7 +5,7 @@ import Recipe from '../recipe/Recipe';
 
 const AnimationPopup = (props) => {
 
-    return (props.trigger) ? (
+    return(props.trigger) ? (
         <>
             <div className={style.popup}>
                 <p className={style.pAnimation} onClick={() => props.setTrigger(false)}>X</p>

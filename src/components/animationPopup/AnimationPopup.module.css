@@ -24,6 +24,7 @@
     padding: 2vw;
 }
 
+<<<<<<< HEAD
 
 /* 
 .popup-inner {
@@ -39,3 +40,13 @@
     top: 16px;
     right: 16px;
 } */
+=======
+@media only screen and (max-width:390px) {
+    
+        body{
+            font-size: 0.5em;
+        }
+    
+    
+}
+>>>>>>> 051f0fefa406403d1dcdf10a0d38797e48165933

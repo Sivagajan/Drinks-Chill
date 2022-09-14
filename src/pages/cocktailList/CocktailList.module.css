@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 .div {
+=======
+
+.divCocktailList{                                     
+>>>>>>> 051f0fefa406403d1dcdf10a0d38797e48165933
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -21,4 +26,14 @@
 
 .left {
     justify-content: left;
+<<<<<<< HEAD
+=======
+}
+
+@media only screen and (max-width:390px) {
+    .div {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+>>>>>>> 051f0fefa406403d1dcdf10a0d38797e48165933
 }

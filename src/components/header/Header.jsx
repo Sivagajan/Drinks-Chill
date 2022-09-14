@@ -2,13 +2,18 @@ import style from './Header.module.css'
 import { Link } from "react-router-dom"
 import vector from '../../img/Vector.png'
 import { useState } from 'react'
+import { useParams } from "react-router-dom"
 
 
+<<<<<<< HEAD
 const Header = () => {
 
+=======
+const Header = (props) => {
+    
+>>>>>>> 051f0fefa406403d1dcdf10a0d38797e48165933
     const [cocktail, setCocktail] = useState('')
     console.log(cocktail)
-
     return (
 
         <div>
@@ -19,13 +24,20 @@ const Header = () => {
                 </nav>
                 <div className={style.heading}>
                     <Link to='/'><h1>Cocktails & Getränke!</h1></Link>
-                    <p>HERZLICH WILKOMMEN IN DER WELT DER COCKTAILS UND DER GETRÄNKE</p>
+                    <p className={style.pTagHeader}>HERZLICH WILKOMMEN IN DER WELT DER COCKTAILS UND DER GETRÄNKE</p>
                 </div>
 
-                <div className={style.btn}>
+                {props.place != 'addCocktails' ? <div className={style.btn}>
+
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
 
+<<<<<<< HEAD
                     <Link to={`/cocktailList/${cocktail}`}> <button className={style.glowonhover}>Search</button></Link>
+=======
+                    <Link to={`/cocktailList/${cocktail}`}> <button >Search</button></Link>
+
+                </div>:null}
+>>>>>>> 051f0fefa406403d1dcdf10a0d38797e48165933
 
                 </div>
                 <section className={style.arrows}>
@@ -35,6 +47,7 @@ const Header = () => {
 
                 </section>
             </header>
+            {/* {params.drink != 'addCocktails' ? <searchButton id={props.id} /> : null} */}
         </div>
     )
 }

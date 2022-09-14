@@ -17,7 +17,7 @@ const Recipe = (props) => {
     return (
         <div className={style.recipeContainer}>
 
-            <div>
+            <div className={style.imgRecipeDiv}>
                 <img className={style.imageRecipe} src={recipe.strDrinkThumb} alt="" />
             </div>
 
@@ -38,7 +38,6 @@ const Recipe = (props) => {
             </div>
         </div>
     )
-
 
 }
 

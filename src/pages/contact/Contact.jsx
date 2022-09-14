@@ -13,11 +13,11 @@ const Contact = () => {
                 <img src={chris} alt="" />
 
                 <form className='formContact' action="">
-                    <label className='ContactLabel1' htmlFor="">Ihr Name</label>
+                    <label className='ContactLabel' htmlFor="">Ihr Name</label>
                     <input className='contactInput1' type="text" />
-                    <label className='ContactLabel2' htmlFor="">Email Adresse</label>
+                    <label className='ContactLabel' htmlFor="">Email Adresse</label>
                     <input className='contactInput2' type="email" name="" id="" />
-                    <label className='ContactLabel3' htmlFor="">Ihre Nachricht</label>
+                    <label className='ContactLabel' htmlFor="">Ihre Nachricht</label>
                     <input className='contactInput3' type="text" />
                     <button className='btnContact'>Submit</button>
                 </form>

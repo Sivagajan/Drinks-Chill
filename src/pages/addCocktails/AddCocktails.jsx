@@ -2,16 +2,19 @@ import style from './AddCocktails.module.css'
 import img1 from '../../img/image1.png'
 import img2 from '../../img/image2.png'
 import img3 from '../../img/image3.png'
-import Header from '../../components/header/Header'
+import searchButton from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
+import Header from '../../components/header/Header'
 
 const AddCocktails = () => {
+    const place = 'addCocktails'
     return (
         <>
-            < Header />
+
+            <Header place={place} />
 
             <div className={style.backgroundAdd}>
-
+                
                 <h3 className={style.h3Add}>
                     Füge deine eigenen Getränke hinzu!
                 </h3>
@@ -31,17 +34,26 @@ const AddCocktails = () => {
                         <button>Submit</button>
                     </div>
 
-                    <div className={style.imgRight}>
-                        <img src={img1} alt="" />
-                        <img src={img3} alt="" />
-                        <img src={img2} alt="" />
-                    </div>
+                    <section className={style.imgRight}>
+                        <div className={style.imgContainerCocktails}>
+                            <div className={style.imgCocktails1}>
+                                <img src={img1} alt="" />
+                            </div>
+                            <div className={style.imgCocktails2}>
+                                <img src={img2} alt="" />
+                            </div>
+                        </div>
+                        {<div className={style.imgCocktails3}>
+                            <img src={img3} alt="" />
+                        </div>}
+                    </section>
                 </div>
             </div>
             <Footer />
-            </>
-            )
+        </>
+    )
 
-    
+
 }
+
 export default AddCocktails
