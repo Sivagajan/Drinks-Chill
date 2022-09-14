@@ -17,12 +17,30 @@
     text-align: right;
     padding-right: 2vh;
     padding-top: 2vh;
+    cursor: pointer;
 }
 
 .divAnimation {
     padding: 2vw;
 }
 
+<<<<<<< HEAD
+
+/* 
+.popup-inner {
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: azure;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+} */
+=======
 @media only screen and (max-width:390px) {
     
         body{
@@ -31,3 +49,4 @@
     
     
 }
+>>>>>>> 051f0fefa406403d1dcdf10a0d38797e48165933
