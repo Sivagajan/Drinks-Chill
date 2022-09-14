@@ -11,6 +11,7 @@ const Recipe = (props) => {
             .then(res => res.json())
             .then(data => setRecipe(data.drinks[0]))
         console.log(recipe)
+        
     }, [props.id])
 
 
@@ -19,20 +20,22 @@ const Recipe = (props) => {
         <div className={style.recipeContainer}>
 
             <div>
-                <img className={style.imageContainer} src={recipe.strDrinkThumb} alt="" />
+                <img className={style.imageRecipe} src={recipe.strDrinkThumb} alt="" />
             </div>
         
-            <div >
-                <p className={style.textUnder}>{recipe.strDrink}</p>
-                <h2 className={style.heading}>{recipe.strCategory}</h2>
-                <p>{recipe.strIngredient1}</p>
-                <p>{recipe.strMeasure1}</p>
-                <p>{recipe.strIngredient2}</p>
-                <p>{recipe.strMeasure2}</p>
-                <p>{recipe.strIngredient3}</p>
-                <p>{recipe.strMeasure3}</p>
-                <p>{recipe.strIngredient4}</p>
-                <p>{recipe.strMeasure4}</p>
+            <div className={style.divIngerdients}>
+                <h2 className={style.heading}>{recipe.strDrink}</h2>
+
+                <article className={style.articleRecipe}>
+                    <p>{recipe.strMeasure1}</p>
+                    <p>{recipe.strIngredient1}</p>
+                    <p>{recipe.strMeasure2}</p>
+                    <p>{recipe.strIngredient2}</p>
+                    <p>{recipe.strMeasure3}</p>
+                    <p>{recipe.strIngredient3}</p>
+                    <p>{recipe.strMeasure4}</p>
+                    <p>{recipe.strIngredient4}</p>
+                </article>
                 <p>{recipe.strInstructionsDE}</p>
             </div>
         </div>

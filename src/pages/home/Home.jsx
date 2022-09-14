@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom"
-import style from './Home.module.css'
+import style from'./Home.module.css'
 
 const Home = () => {
 
     return (
         <>
             <main>
-                <section>
+                <section className={style.sectionHome}>
                     <article className="style1 left">
                         <Link to='cocktailList/gin'>
                             <h2>Gin</h2>
                             <p>Let the evening BeGin</p>
                         </Link>
                     </article>
-                    <article className="style2 right">
+                    <article className="style2 right {style.articleHome}">
                         <Link to='/cocktailList/vodka'>
                             <h2>Vodka</h2>
                             <p>if life gives you Lemons, add Vodka</p>

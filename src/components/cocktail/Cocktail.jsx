@@ -10,7 +10,7 @@ const Cocktail = (props) => {
     return (
         <>
             <AnimationPopup trigger={popupBtn} setTrigger={setpopupBtn} id={props.id}></AnimationPopup>
-            <img onClick={() => setpopupBtn(true)} src={props.cocktail_Img} className={style.image} height={240}></img>
+            <img onClick={() => setpopupBtn(true)} src={props.cocktail_Img} className={style.image} height={240} alt=''></img>
             <p className={style.cocktailName}>{props.cocktailName}</p>
         </>
     );
