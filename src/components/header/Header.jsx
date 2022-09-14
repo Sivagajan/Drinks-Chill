@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom"
 
 
 const Header = (props) => {
-    
+
     const [cocktail, setCocktail] = useState('')
     console.log(cocktail)
     return (
@@ -25,10 +25,9 @@ const Header = (props) => {
                 {props.place != 'addCocktails' ? <div className={style.btn}>
 
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
-
                     <Link to={`/cocktailList/${cocktail}`}> <button >Search</button></Link>
 
-                </div>:null}
+                </div> : null}
 
                 <section className={style.arrows}>
                     <img src={vector} alt="" />
@@ -36,7 +35,6 @@ const Header = (props) => {
                     <img src={vector} alt="" />
 
                 </section>
-
             </header>
             {/* {params.drink != 'addCocktails' ? <searchButton id={props.id} /> : null} */}
         </div>
