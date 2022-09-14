@@ -14,18 +14,6 @@
     font-size: 28px;
 }
 
-<<<<<<< HEAD
-.divIngerdients{
-    padding: 2vh;
-}
-
-.articleRecipe{
-    display: grid;
-    grid-template-columns:20% 80%;
-    width: 50vw;
-    padding:3vh;
-    line-height: 1.5em;
-=======
 .divIngerdients {
     padding: 2vh;
 }
@@ -55,5 +43,4 @@
         display: flex;
     }
 
->>>>>>> Hussein
 }
