@@ -1,7 +1,8 @@
-/* font-family: 'Montserrat', sans-serif; */
-/* font-family: 'Playfair Display',  */
+background-color: #FF1493;
+/* font-family: 'Montserrat', sans-serif; /
+/ font-family: 'Playfair Display',  /
 
-/* background-color: #262B46 */
+/ background-color: #262B46 */
 
 .contactBackground {
     background-color: #262B46;
@@ -70,25 +71,27 @@
     color: white;
 }
 
-.h3Contact{
-    font-size:2em ;
+.h3Contact {
+    font-size: 2em;
     line-height: 3em;
 }
-.pContact{
-        padding-bottom: 30px;
+
+.pContact {
+    padding-bottom: 30px;
 }
 
-.formContact{
+.formContact {
     padding-top: 20px;
 }
 
-.ContactLabel{
-    padding:5px;
-    
+.ContactLabel {
+    padding: 5px;
+
 
 }
-@media only screen and (max-width:390px){
-    .contactBackground{
+
+@media only screen and (max-width:390px) {
+    .contactBackground {
         font-size: 13px;
         display: grid;
         margin-left: 0;
