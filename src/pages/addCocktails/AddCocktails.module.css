@@ -1,3 +1,7 @@
+body{
+    color: white;
+}
+
 .backgroundAdd {
     background-color: #262B46;
     padding-top: 10vh;
@@ -8,12 +12,15 @@
     color: white;
     font-family: 'Playfair Display', serif;
     margin-bottom: 5vh;
+    font-size: 32px;
 
 }
 
 .addFlex {
-    display: flex;
-    justify-content: space-around;
+   display: flex;
+   justify-content:space-between;
+   padding-right: 45vw;
+    
 }
 
 .inputList input {
@@ -24,6 +31,7 @@
 
 .inputList button {
     padding: 6px 84px;
+    margin-top: 20px;
     margin-left: 3.5%;
     border-radius: 6px;
     border: #262B46;
@@ -32,13 +40,39 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     cursor: pointer;
-
-
+    width: 293px;
 }
+
+.imgRight{
+    display: flex;
+}
+
+.imgContainerCocktails{
+    flex-direction: column;
+    padding-left: 76px;
+}
+
+.imgCocktails1{
+    padding-bottom: 18px;
+    padding-right: 22px;
+}
+
+.imgCocktails2 img{
+    padding-left: 42px;
+}
+.addFlex{
+    
+}
+/* .flexCocktails3{
+    display: flex;
+} */
+
+
 
 .inputList input:placeholder-shown {
     font-family: 'Montserrat', sans-serif;
     color: #262B46;
+    width: 293px;
 }
 
 .inputList input:nth-of-type(1) {

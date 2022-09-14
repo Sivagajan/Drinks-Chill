@@ -2,6 +2,7 @@ import style from './Header.module.css'
 import { Link } from "react-router-dom"
 import vector from '../../img/Vector.png'
 import { useState } from 'react'
+import { useParams } from "react-router-dom"
 
 
 const Header = () => {
@@ -10,7 +11,6 @@ const Header = () => {
     console.log(cocktail)
 
     return (
-
         <div>
             <header className={style.hero}>
                 <nav className={style.logo}>
@@ -37,6 +37,7 @@ const Header = () => {
                 </section>
 
             </header>
+            {/* {params.drink != 'addCocktails' ? <searchButton id={props.id} /> : null} */}
         </div>
     )
 }
