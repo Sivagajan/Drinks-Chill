@@ -4,7 +4,6 @@ import vector from '../../img/Vector.png'
 import { useState } from 'react'
 import { useParams } from "react-router-dom"
 
-
 const Header = (props) => {
 
     const [cocktail, setCocktail] = useState('')
@@ -25,9 +24,10 @@ const Header = (props) => {
                 {props.place != 'addCocktails' ? <div className={style.btn}>
 
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
+
                     <Link to={`/cocktailList/${cocktail}`}> <button >Search</button></Link>
 
-                </div> : null}
+                </div>:null}
 
                 <section className={style.arrows}>
                     <img src={vector} alt="" />
