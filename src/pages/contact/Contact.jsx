@@ -9,7 +9,7 @@ const Contact = () => {
             < Header />
             <div className="contactBackground">
                 <h3 className="h3Contact">Contact</h3>
-                <p className="pContact">Du hast Bugs auf unserer schönen Webiste entdeckt? Dann maile doch entweder an christian.peters@supercode.de oder benutze das Kontaktformular um uns wissen zu lassen wie wir unseren Coding Guru Christian noch mehr zum weinen bringen können.</p>
+                <p className="pContact">Du hast Bugs auf unserer schönen Webiste entdeckt? Dann maile doch entweder an christian.peters@supercode.de oder benutze das Kontaktformular um uns wissen zu lassen wie wir unseren Coding Guru Christian noch mehr Verzweifelung fühlen lassen können.</p>
                 <img src={chris} alt="" />
 
                 <form className='formContact' action="">
