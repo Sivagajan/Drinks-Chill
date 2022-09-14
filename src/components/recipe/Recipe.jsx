@@ -11,10 +11,8 @@ const Recipe = (props) => {
             .then(res => res.json())
             .then(data => setRecipe(data.drinks[0]))
         console.log(recipe)
-        
+
     }, [props.id])
-
-
 
     return (
         <div className={style.recipeContainer}>

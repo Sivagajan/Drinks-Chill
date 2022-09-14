@@ -5,8 +5,13 @@ import { useState } from 'react'
 import { useParams } from "react-router-dom"
 
 
+<<<<<<< HEAD
+const Header = () => {
+
+=======
 const Header = (props) => {
     
+>>>>>>> 051f0fefa406403d1dcdf10a0d38797e48165933
     const [cocktail, setCocktail] = useState('')
     console.log(cocktail)
     return (
@@ -26,17 +31,21 @@ const Header = (props) => {
 
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
 
+<<<<<<< HEAD
+                    <Link to={`/cocktailList/${cocktail}`}> <button className={style.glowonhover}>Search</button></Link>
+=======
                     <Link to={`/cocktailList/${cocktail}`}> <button >Search</button></Link>
 
                 </div>:null}
+>>>>>>> 051f0fefa406403d1dcdf10a0d38797e48165933
 
+                </div>
                 <section className={style.arrows}>
                     <img src={vector} alt="" />
                     <img src={vector} alt="" />
                     <img src={vector} alt="" />
 
                 </section>
-
             </header>
             {/* {params.drink != 'addCocktails' ? <searchButton id={props.id} /> : null} */}
         </div>

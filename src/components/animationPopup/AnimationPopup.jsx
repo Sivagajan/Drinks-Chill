@@ -1,5 +1,5 @@
 import React from 'react'
-import style from'./AnimationPopup.module.css'
+import style from './AnimationPopup.module.css'
 import Recipe from '../recipe/Recipe';
 
 
@@ -13,7 +13,6 @@ const AnimationPopup = (props) => {
                     <Recipe id={props.id} />
                 </div>
             </div>
-
         </>
     ) : '';
 }
