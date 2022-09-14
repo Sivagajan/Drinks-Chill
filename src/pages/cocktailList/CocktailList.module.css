@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-.div {
-=======
-
 .divCocktailList{                                     
 >>>>>>> 051f0fefa406403d1dcdf10a0d38797e48165933
     display: grid;
@@ -31,9 +27,10 @@
 }
 
 @media only screen and (max-width:390px) {
-    .div {
+    .divCocktailList {
         display: grid;
         grid-template-columns: 1fr;
+        font-size: 18px;
     }
 <<<<<<< HEAD
 >>>>>>> 051f0fefa406403d1dcdf10a0d38797e48165933
