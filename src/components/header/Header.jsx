@@ -14,6 +14,7 @@ const Header = (props) => {
             <header className={style.hero}>
                 <nav className={style.logo}>
                     <h2>DRINKS & CHILL</h2>
+                    
                     <Link className={style.headerLink} to='/popupwindow' >MENU</Link>
                 </nav>
                 <div className={style.heading}>
@@ -21,7 +22,7 @@ const Header = (props) => {
                     <p className={style.pTagHeader}>HERZLICH WILKOMMEN IN DER WELT DER COCKTAILS UND DER GETRÄNKE</p>
                 </div>
 
-                {props.place != 'addCocktails' ? <div className={style.btn}>
+                {props.place != 'noSearch' ? <div className={style.btn}>
 
                     <input onChange={(e) => setCocktail(e.target.value)} placeholder='type something' type={style.text} />
 
