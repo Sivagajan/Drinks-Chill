@@ -59,9 +59,12 @@ body{
 .right {
   height: 320px;
   display: flex;
+  flex-direction: row-reverse;
   padding-left: 5vh;
   padding-right: 5vh;
   align-items: center;
+  justify-content: space-between;
+  text-align: right;
 }
 
 .left {
@@ -70,6 +73,14 @@ body{
   padding-left: 5vh;
   padding-right: 5vh;
   align-items: center;
+  justify-content: space-between;
 }
 
 
+@media only screen and (max-width:390px) {
+  
+  body{
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
+}

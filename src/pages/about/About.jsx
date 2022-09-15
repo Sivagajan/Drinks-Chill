@@ -26,7 +26,7 @@ const About = () => {
                     </div>
                     <div className="aboutCard1">
                         <img className='aboutImg' src={stanni} alt="" />
-                        <p className="pAbout">Stanni 'the Psychotherapist'</p>
+                        <p className="pAbout">Stanni 'the Body Tag'</p>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ import { useParams } from "react-router-dom"
 
 const Cocktails = (props) => {
 
-    const [cocktails, setCocktails] = useState([])
+    const [cocktails, setCocktails] = useState(null)
     const params = useParams()
 
     let url = ''
@@ -61,22 +61,23 @@ const Cocktails = (props) => {
 
             <div className={style.divCocktailList}>
 
-                {cocktails.map((item, e) => {
+            {cocktails &&
+            
+                cocktails.map((item, e) => {
 
                     return (
-                        <div className={`style${Math.floor((e % 6) + 1)} ${e % 2 === 0 ? 'left' : 'right'}`}
-                        >
+                        <>
+                        
+                        <div className={`style${Math.floor((e % 6) + 1)} ${e % 2 === 0 ? 'left' : 'right'}`}>
                             {/* {console.log(item.strDrink)} */}
-
+                            
                             <Cocktail trigger={true} key={e} id={item.idDrink} cocktail_Img={item.strDrinkThumb} cocktailName={item.strDrink} />
+                        </div>
+                        </>
+                        )
+                    })
 
-                            
-                            
-                        </div>)
-                }
-                )
-                }
-
+            }
 
             </div>
 

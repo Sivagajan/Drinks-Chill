@@ -7,7 +7,6 @@ import ChrisWeint from '../../components/chrisWeint/ChrisWeint';
 const Contact = () => {
 
     const [popupBtn1, setpopupBtn1] = useState(false)
-
     const place = 'noSearch'
     return (
         <>
