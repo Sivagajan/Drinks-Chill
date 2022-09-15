@@ -2,6 +2,7 @@
     max-width: 1440px;
     background-color: #262B46;
     border-radius: 25px;
+    border: 1px outset #262B46;
     box-shadow: 0 3rem 3rem rgb(0 0 0 / 10%);
     left: 50%;
     max-height: calc(100vh - 200px);

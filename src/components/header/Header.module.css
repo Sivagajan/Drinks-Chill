@@ -77,11 +77,15 @@ h1 {
 @media only screen and (max-width:390px) {
 
     .hero{
-        height: 60vh;
+        height: 50vh;
     }
 
     .btn {
         font-family: 'Montserrat', sans-serif;
         padding-left: 0;
+    }
+
+    .arrows{
+        visibility: hidden;
     }
 }
