@@ -33,17 +33,13 @@ const Cocktails = (props) => {
             url = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Rum'
             break
         default:
-            url= `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${params.drink}`
+            url = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${params.drink}`
     }
-
-
-    console.log(url)
 
 
     useEffect(() => {
 
-        console.log('fetchen tut er')
-        /* fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${props.sorte}`) */
+
 
         fetch(url)
             .then(res => res.json())
@@ -61,23 +57,23 @@ const Cocktails = (props) => {
 
             <div className={style.divCocktailList}>
 
-            {cocktails &&
-            
-                cocktails.map((item, e) => {
+                {cocktails &&
 
-                    return (
-                        <>
-                        
-                        <div className={`style${Math.floor((e % 6) + 1)} ${e % 2 === 0 ? 'left' : 'right'}`}>
-                            {/* {console.log(item.strDrink)} */}
-                            
-                            <Cocktail trigger={true} key={e} id={item.idDrink} cocktail_Img={item.strDrinkThumb} cocktailName={item.strDrink} />
-                        </div>
-                        </>
+                    cocktails.map((item, e) => {
+
+                        return (
+                            <>
+
+                                <div className={`style${Math.floor((e % 6) + 1)} ${e % 2 === 0 ? 'left' : 'right'}`}>
+                                    {/* {console.log(item.strDrink)} */}
+
+                                    <Cocktail trigger={true} key={e} id={item.idDrink} cocktail_Img={item.strDrinkThumb} cocktailName={item.strDrink} />
+                                </div>
+                            </>
                         )
                     })
 
-            }
+                }
 
             </div>
 

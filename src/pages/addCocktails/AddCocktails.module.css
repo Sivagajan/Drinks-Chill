@@ -13,10 +13,10 @@
 }
 
 .addFlex {
-   display: flex;
-   justify-content:space-between;
-   padding-right: 45vw;
-    
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45vw;
+
 }
 
 .inputList input {
@@ -39,27 +39,23 @@
     width: 293px;
 }
 
-.imgRight{
+.imgRight {
     display: flex;
 }
 
-.imgContainerCocktails{
+.imgContainerCocktails {
     flex-direction: column;
     padding-left: 76px;
 }
 
-.imgCocktails1{
+.imgCocktails1 {
     padding-bottom: 18px;
     padding-right: 22px;
 }
 
-.imgCocktails2 img{
+.imgCocktails2 img {
     padding-left: 42px;
 }
-/* .flexCocktails3{
-    display: flex;
-} */
-
 
 
 .inputList input:placeholder-shown {
@@ -107,4 +103,12 @@
 
 .inputList input:nth-of-type(10) {
     background-color: #E7B788;
+}
+
+@media only screen and (max-width:390px) {
+
+
+    .imgRight {
+        display: none;
+    }
 }

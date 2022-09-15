@@ -18,6 +18,8 @@
     text-align: right;
     padding-right: 2vh;
     padding-top: 2vh;
+    cursor: pointer;
+
 }
 
 .divAnimation {
@@ -25,9 +27,11 @@
 }
 
 @media only screen and (max-width:390px) {
-    
-        .popup{
-            height:843px;
-        }
-}
 
+    .popup {
+        max-height: 150vh;
+        font-size: 2em;
+        width: 90vw;
+        left: 30%;
+    }
+}

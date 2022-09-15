@@ -21,15 +21,14 @@
     color: white;
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 50vh;
 }
 
 .heading {
     margin: 3vh, 0, 3vh, 0;
 }
-.pTagHeader{
-    font-size: 14px;
-}
+
+
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 45px;
@@ -38,7 +37,7 @@ h1 {
 
 .heading p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: 20px;
     padding-bottom: 50px;
 }
 
@@ -76,7 +75,7 @@ h1 {
 
 @media only screen and (max-width:390px) {
 
-    .hero{
+    .hero {
         height: 50vh;
         margin-left: 5vh;
         margin-right: 5vh;
@@ -87,7 +86,7 @@ h1 {
         padding-left: 0;
     }
 
-    .arrows{
+    .arrows {
         visibility: hidden;
     }
 }
