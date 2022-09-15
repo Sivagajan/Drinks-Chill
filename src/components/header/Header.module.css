@@ -78,6 +78,8 @@ h1 {
 
     .hero{
         height: 50vh;
+        margin-left: 5vh;
+        margin-right: 5vh;
     }
 
     .btn {

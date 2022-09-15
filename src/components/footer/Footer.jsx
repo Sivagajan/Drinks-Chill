@@ -1,10 +1,11 @@
 import style from './Footer.module.css'
 import React from 'react'
-import { library } from '@fortawesome/fontawesome-svg-core'
-/* import { fab } from '@fortawesome/free-brands-svg-icons' */
+/* import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' */
 
-library.add( faCheckSquare, faCoffee)
+/* library.add(fab, faCheckSquare, faCoffee) */
 
 
 
@@ -19,21 +20,19 @@ const Footer = () => {
 
 
             </div>
-             <ul>
+           {/*  <ul>
                 <li>
                     <a href="#">
                         <i className="fab fa-facebook-f icon"></i>    </a>
                 </li>
                 <li>
-                    <a href="#"><i className="fab fa-twitter icon"></i></a>
+                    <a href="#"><fab icon={['fab', 'facebook']} /></a>
                 </li>
                 <li>
                     <a href="#"><i className="fab fa-linkedin-in icon"></i></a></li>
                 <li>
                     <a href="#"><i className="fab fa-google-plus-g icon"></i></a></li>
-            </ul>
-
-
+            </ul> */}
 
         </>
     )

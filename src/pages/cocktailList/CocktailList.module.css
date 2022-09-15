@@ -26,9 +26,14 @@
 }
 
 @media only screen and (max-width:390px) {
-    .divCocktailList {
+    .divCocktailList{
         display: grid;
         grid-template-columns: 1fr;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .divCocktailList div {
         font-size: 18px;
     }
 
