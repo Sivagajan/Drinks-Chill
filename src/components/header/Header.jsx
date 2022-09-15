@@ -14,7 +14,7 @@ const Header = (props) => {
             <header className={style.hero}>
                 <nav className={style.logo}>
                     <h2>DRINKS & CHILL</h2>
-                    
+
                     <Link className={style.headerLink} to='/popupwindow' >MENU</Link>
                 </nav>
                 <div className={style.heading}>
@@ -28,7 +28,7 @@ const Header = (props) => {
 
                     <Link to={`/cocktailList/${cocktail}`}> <button >Search</button></Link>
 
-                </div>:null}
+                </div> : null}
 
                 <section className={style.arrows}>
                     <img src={vector} alt="" />

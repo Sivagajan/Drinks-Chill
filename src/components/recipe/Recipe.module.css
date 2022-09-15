@@ -27,20 +27,30 @@
 }
 
 @media only screen and (max-width:390px) {
-    
 
-    .imageContainer{
+
+    .imageContainer {
         justify-content: center;
     }
-    .recipeContainer{
+
+    .recipeContainer {
         justify-content: center;
         display: grid;
         text-align: center;
         font-size: 12px;
     }
-    .imgRecipeDiv{
+
+    .imgRecipeDiv {
         justify-content: center;
         display: flex;
     }
+
+    .articleRecipe {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 80vw;
+        line-height: 1.5em;
+    }
+
 
 }
