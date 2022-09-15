@@ -5,7 +5,8 @@
 
 .aboutBackground {
     background-color: #262B46;
-    padding: 10vh 5vh 3vh 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
     color: white;
 }
 

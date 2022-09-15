@@ -1,7 +1,6 @@
 .contactBackground {
     background-color: #262B46;
     color: white;
-    padding-top: 20vh;
     font-family: 'Montserrat', sans-serif;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -11,44 +10,34 @@
     font-family: 'Playfair Display';
     font-size: 3em;
     padding-bottom: 8vh;
-    padding-left: 10%;
+
 }
 
 .pContact {
-    padding-bottom: 8vh;
-    padding-left: 10%;
     font-family: 'Montserrat', sans-serif;
-    padding-right: 10%;
-}
-
-.contactBackground img {
-    height: 20vh;
-    display: flex;
-    padding-left: 30%;
+    text-align: justify;
+    width: 30vw;
+    padding-bottom: 10vh;
+    margin: auto;
 }
 
 .formContact {
-    padding-left: 30%;
-    padding-top: 8vh;
+    padding-left: 30vw;
 }
 
-.contactInput1 {
+.contactInput {
     display: block;
     background-color: #84879a;
     border-radius: 5px;
     border: #84879a;
+    width: 200px;
+    line-height: 25px;
 }
 
-.contactInput2 {
+.contactTextArea {
     display: block;
-    background-color: #84879a;
-    border-radius: 5px;
-    border: #84879a;
-}
-
-.contactInput3 {
-    display: block;
-    padding: 80px;
+    height: 100px;
+    width: 200px;
     background-color: #84879a;
     border-radius: 5px;
     border: #84879a;
@@ -68,22 +57,26 @@
     line-height: 3em;
 }
 
-.pContact {
-    padding-bottom: 30px;
-}
-
-.formContact {
-    padding-top: 20px;
-}
-
 .ContactLabel {
-    padding: 5px;
+    line-height: 30px;
 }
 
 @media only screen and (max-width:390px) {
     .contactBackground {
         font-size: 13px;
         display: grid;
-        margin-left: 0;
+    }
+    .formContact {
+        margin: auto;
+        padding-left: 0;
+        padding-top: 1vh;
+    }
+
+    .pContact {
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+        width: 60vw;
+        padding-bottom: 5vh;
+        margin: auto;
     }
 }
