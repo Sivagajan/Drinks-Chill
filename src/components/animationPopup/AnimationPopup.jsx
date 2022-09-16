@@ -10,7 +10,7 @@ const AnimationPopup = (props) => {
             <div className={style.popup}>
                 <p className={style.pAnimation} onClick={() => props.setTrigger(false)}>X</p>
                 <div className={style.divAnimation}>
-                    <Recipe id={props.id} />
+                    <Recipe id={props.id} key={props.key} />
                 </div>
             </div>
         </>

@@ -37,7 +37,6 @@ const Header = (props) => {
 
                 </section>
             </header>
-            {/* {params.drink != 'addCocktails' ? <searchButton id={props.id} /> : null} */}
         </div>
     )
 }

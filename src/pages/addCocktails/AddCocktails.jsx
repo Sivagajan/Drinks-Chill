@@ -7,10 +7,9 @@ import Header from '../../components/header/Header'
 
 const AddCocktails = () => {
     const place = 'noSearch'
-    
+
     return (
         <>
-
             <Header place={place} />
 
             <div className={style.backgroundAdd}>
