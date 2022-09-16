@@ -73,7 +73,7 @@ h1 {
     margin-left: 49%;
 }
 
-@media only screen and (max-width:390px) {
+@media only screen and (max-width:420px) {
 
     .hero {
         height: 50vh;

@@ -32,6 +32,7 @@ const CocktailList = () => {
         case 'rum':
             url = 'https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=Rum'
             break
+        
         default:
             url = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${params.drink}`
     }
