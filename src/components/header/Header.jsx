@@ -13,7 +13,7 @@ const Header = (props) => {
         <div>
             <header className={style.hero}>
                 <nav className={style.logo}>
-                    <h2>DRINKS & CHILL</h2>
+                    <h2>DRINKS N CHILL</h2>
 
                     <Link className={style.headerLink} to='/popupwindow' >MENU</Link>
                 </nav>
