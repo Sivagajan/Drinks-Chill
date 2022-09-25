@@ -4,6 +4,7 @@ import style from './CocktailList.module.css'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 import { useParams } from "react-router-dom"
+import {motion} from 'framer-motion'
 
 const CocktailList = () => {
 
@@ -67,13 +68,10 @@ const CocktailList = () => {
                                     {/* {console.log(item.strDrink)} */}
 
                                     <Cocktail trigger={true} key={e} id={item.idDrink} cocktail_Img={item.strDrinkThumb} cocktailName={item.strDrink} />
+
                                 </div>
                             </>
-                        )
-                    })
-
-                }
-
+                        )})}
             </div>
 
             < Footer />
