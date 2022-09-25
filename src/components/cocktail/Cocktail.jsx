@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import style from './Cocktail.module.css'
 import { useState } from 'react';
 import AnimationPopup from '../animationPopup/AnimationPopup';
+import {motion} from 'framer-motion'
 
 
 const Cocktail = (props) => {
@@ -10,7 +11,7 @@ const Cocktail = (props) => {
     return (
         <>
             <AnimationPopup trigger={popupBtn} setTrigger={setpopupBtn} id={props.id} key={props.key}></AnimationPopup>
-            <img onClick={() => setpopupBtn(true)} src={props.cocktail_Img} className={style.image} height={240} alt=''></img>
+            <motion.img whileHover={{scale:1.2}} onClick={() => setpopupBtn(true)} src={props.cocktail_Img} className={style.image} height={240} alt=''></motion.img>
             <p className={style.cocktailName}>{props.cocktailName}</p>
         </>
     );

@@ -4,7 +4,6 @@ import style from './CocktailList.module.css'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 import { useParams } from "react-router-dom"
-import {motion} from 'framer-motion'
 
 const CocktailList = () => {
 
